@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="springboot-testing" />
+        <module name="sprinboot-transaction-demo" />
+        <module name="sprinboot-search-rest-api" />
+        <module name="spring-data-jpa-course" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="sprinboot-search-rest-api" options="-parameters" />
+      <module name="sprinboot-transaction-demo" options="-parameters" />
+      <module name="spring-data-jpa-course" options="-parameters" />
+      <module name="springboot-testing" options="-parameters" />
+    </option>
+  </component>
+</project>
